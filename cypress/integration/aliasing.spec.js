@@ -36,7 +36,7 @@ context('Aliasing', () => {
     cy.get('.network-btn').click()
 
     // https://on.cypress.io/wait
-    cy.wait('@getComment').its('status').should('eq', 200)
+    cy.wait('@getComment').its('status').should('eq', 201)
 
   })
 })

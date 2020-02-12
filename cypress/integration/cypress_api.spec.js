@@ -110,7 +110,7 @@ context('Cypress.config()', () => {
     // https://on.cypress.io/config
     let myConfig = Cypress.config()
 
-    expect(myConfig).to.have.property('animationDistanceThreshold', 5)
+    expect(myConfig).to.have.property('animationDistanceThreshold2', 5)
     expect(myConfig).to.have.property('baseUrl', null)
     expect(myConfig).to.have.property('defaultCommandTimeout', 4000)
     expect(myConfig).to.have.property('requestTimeout', 5000)

@@ -11,7 +11,7 @@ context('Utilities', () => {
       .then((response) => {
         let ids = Cypress._.chain(response.body).map('id').take(3).value()
 
-        expect(ids).to.deep.eq([1, 2, 3])
+        expect(ids).to.deep.eq([1, 2, 3, 5, 6, 7])
       })
   })
 
