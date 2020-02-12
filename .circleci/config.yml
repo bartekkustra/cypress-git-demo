@@ -16,6 +16,9 @@ jobs:
 
     working_directory: ~/repo
 
+    # tell CircleCI to execute this job on 2 machines simultaneously
+    parallelism: 2
+
     steps:
       - checkout
 
