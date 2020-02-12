@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --record --key dc6121f7-c131-4b16-9829-954385535c4b --browser chrome --parallel"
+    "test": "cypress run --record --key dc6121f7-c131-4b16-9829-954385535c4b --browser chrome --parallel",
+    "cyinstall": "cypress install"
   },
   "keywords": [],
   "author": "",

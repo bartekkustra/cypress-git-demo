@@ -33,5 +33,7 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
+      # install cypress
+      - run: yarn cyinstall
       # run tests!
       - run: yarn test
